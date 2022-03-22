@@ -1,0 +1,11 @@
+package lacos;
+
+public class Adivinhacao {
+
+	public static void main(String[] args) {
+
+		System.out.println("Jogo da Adivinhação");
+
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Estrelas {
+
+	public static void main(String[] args) {
+
+		for ( int contador = 1 ; parte2 ; contador = contador + 1 ) {
+			System.out.println("**********");
+			System.out.println("**********");
+			System.out.println("**********");
+		}
+	
+	}
+	
+}

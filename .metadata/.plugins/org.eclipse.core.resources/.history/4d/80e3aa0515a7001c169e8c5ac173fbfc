@@ -1,0 +1,27 @@
+package helloworld;
+
+import java.util.Scanner;
+
+public class SomeProg {
+
+	public static void main(String[] args) { 	
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Menu");
+		System.out.println("===================");
+		System.out.print("1 - Cadastro");
+		System.out.println("2 - Consulta");
+		System.out.println("3 - Relatório");
+		System.out.println("4 - Configuração");
+		System.out.println("0 - Sair");
+		System.out.println("===================");
+		System.out.println("Digite uma opção: ");
+		
+		int opcao = keyboard.nextInt();
+
+		System.out.println("Você esolheu: " + opcao);
+		
+	}
+	
+}

@@ -1,0 +1,21 @@
+package helloworld;
+
+import java.util.Scanner;
+
+public class HelloWorldApplication { 
+
+	public static void main(String[] args) {
+		
+		
+		System.out.print("Digite sua idade: ");
+		
+		Scanner scanner = new Scanner(System.in);
+		int idade = scanner.nextInt();
+		
+		System.out.println(idade > 18);
+		
+		
+	}
+	
+}
+

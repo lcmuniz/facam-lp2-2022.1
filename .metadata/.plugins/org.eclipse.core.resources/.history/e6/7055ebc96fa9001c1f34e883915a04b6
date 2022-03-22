@@ -1,0 +1,17 @@
+package lacos;
+
+import java.util.Scanner;
+
+public class Adivinhacao {
+
+	public static void main(String[] args) {
+
+		System.out.println("Jogo da Adivinhação");
+		System.out.println();
+		
+		Scanner teclado = new Scanner(System.in);
+		
+
+	}
+
+}

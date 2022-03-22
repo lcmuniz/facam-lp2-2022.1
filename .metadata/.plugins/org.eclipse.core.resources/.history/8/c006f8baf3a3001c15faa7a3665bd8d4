@@ -1,0 +1,22 @@
+package helloworld;
+
+import java.util.Scanner;
+
+public class HelloWorldApplication { 
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println("AULA INTERESSANTE");
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		scanner.nextInt();
+		
+		System.out.println("O número digitado foi ");
+		
+		
+	}
+	
+}
+

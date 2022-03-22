@@ -1,0 +1,21 @@
+package helloworld;
+
+public class HelloWorldApplication { 
+
+	public static void main(String[] args) {
+	
+		int idade  = 40;
+		int maior = 18;
+		
+		idade++;
+		
+		int outra = idade + maior;
+		
+		System.out.println(outra);
+		System.out.println(idade);
+		
+		
+	}
+	
+}
+ 

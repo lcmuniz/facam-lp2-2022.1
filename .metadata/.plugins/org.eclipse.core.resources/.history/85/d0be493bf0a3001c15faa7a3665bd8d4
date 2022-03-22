@@ -1,0 +1,20 @@
+package helloworld;
+
+public class HelloWorldApplication { 
+
+	public static void main(String[] args) {
+	
+		int idade  = 40;
+
+		//idade = idade * 5;
+		
+		idade *= 5;
+		
+		System.out.println(idade);
+		
+
+		
+	}
+	
+}
+ 

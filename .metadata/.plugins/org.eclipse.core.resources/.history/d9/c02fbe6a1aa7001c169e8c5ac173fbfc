@@ -1,0 +1,25 @@
+package helloworld;
+
+import java.util.Scanner;
+
+public class SomeProg {
+
+	public static void main(String[] args) { 	
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Enter a number: ");
+		
+		int x = keyboard.nextInt();
+		
+		if (x > 10) 
+			System.out.println("Green");
+			System.out.println("Blue");
+		
+		System.out.println("Red");
+		
+		keyboard.close();
+
+	}
+	
+}
