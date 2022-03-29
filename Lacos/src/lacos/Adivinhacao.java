@@ -44,7 +44,7 @@ public class Adivinhacao {
 		
 		System.out.println("Obrigado por participar.");
 		
-		
+		teclado.close();
 
 	}
 

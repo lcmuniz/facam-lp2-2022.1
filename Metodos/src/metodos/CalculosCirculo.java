@@ -51,10 +51,8 @@ public class CalculosCirculo {
 	// opcao1 pede o raio do círculo
 	static double opcao1() {
 		double meuRaio;
-		//Scanner scanner = new Scanner(System.in);
 		System.out.print("Digite o raio do círculo: ");
 		meuRaio = scanner.nextDouble();
-		//scanner.close();
 		return meuRaio;
 	}
 	

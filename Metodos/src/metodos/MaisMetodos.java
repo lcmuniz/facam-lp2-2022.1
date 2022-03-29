@@ -58,6 +58,7 @@ public class MaisMetodos {
 		else {
 			return false;
 		}
+		
 	}
 	
 	static boolean ehImpar(int numero) {

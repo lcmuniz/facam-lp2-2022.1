@@ -38,6 +38,7 @@ public class EntradaDadosV2 {
 		dia = scanner.nextInt();
 		
 		// o programa continua...
+		System.out.println(dia + "/" + mes + "/" + ano);
 		
 		// mensagem de agradecimento ao final do programa
 		System.out.println("Obrigado por participar!");
