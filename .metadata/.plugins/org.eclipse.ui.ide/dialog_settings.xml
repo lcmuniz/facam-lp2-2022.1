@@ -8,4 +8,8 @@
 			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="204"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
 </section>

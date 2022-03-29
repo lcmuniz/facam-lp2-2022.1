@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger"/>
     <fullyQualifiedTypeName name="java.util.logging.Logger"/>
     <fullyQualifiedTypeName name="java.lang.System.Logger.Level"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>
