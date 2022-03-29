@@ -1,7 +1,0 @@
-INDEX VERSION 1.131+C:\Users\lcmuniz\Documentos\workspace-lp2\.metadata\.plugins\org.eclipse.jdt.core
-2380175872.index
-3052367510.index
-300820216.index
-1865797976.index
-2110769446.index
-3374745401.index
