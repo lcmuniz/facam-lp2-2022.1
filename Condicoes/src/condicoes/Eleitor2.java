@@ -1,3 +1,4 @@
+package condicoes;
 import java.util.Scanner;
 
 public class Eleitor2 {

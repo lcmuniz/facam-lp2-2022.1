@@ -1,4 +1,4 @@
-package varios;
+package maisarrays;
 
 public class VariosArgumentos {
 
