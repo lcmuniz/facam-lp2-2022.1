@@ -1,31 +1,30 @@
 package calculadora;
 
+import java.util.ArrayList;
+
 public class Programa {
 
 	public static void main(String[] args) {
 
 		boolean continuar = true;
 
-		Menu menu = new Menu();
+		EntradaSaida entradaSaida = new EntradaSaida();
+		Calculadora calc = new Calculadora();
 
 		while(continuar) {
 
-			menu.mostrar();
-			String opcao = menu.solicitarOpcao();
+			entradaSaida.mostrarMenu();
+			String operacao = entradaSaida.solicitarOpcao();
 			System.out.println();
 
-			switch(opcao) {
+			switch(operacao) {
 				case "+":
-					// add
-					break;
 				case "-":
-					// sub
-					break;
 				case "*":
-					// mul
-					break;
 				case "/":
-					// div
+					ArrayList<Double> numeros = entradaSaida.obterNumerosSeparadamente();
+					double resultado = calc.calcular(operacao, numeros);
+					entradaSaida.mostrarResultado(operacao, resultado);
 					break;
 				default:
 					// sair
